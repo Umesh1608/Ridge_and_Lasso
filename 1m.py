@@ -10,6 +10,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import RepeatedKFold
 from sklearn.linear_model import Ridge, RidgeCV, Lasso, LassoCV
 
+#
+
 # Load the house_scale.mat file 
 house_train = scipy.io.loadmat('house_scale.mat')
 
